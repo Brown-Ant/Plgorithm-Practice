@@ -25,7 +25,7 @@ void average_time_sort(int n) {
             vec[i] = rand() % n + 1; //赋值为随机数，vec[i]取值范围为[1,n]
         }
         clock_t start_time = clock(); //开始定时
-        sort(vec.begin(), vec.end()); //对数组赋值
+        sort(vec.begin(), vec.end()); //对数组排序
         clock_t elpased_time = clock() - start_time; //计算耗时
         sum+=elpased_time;
     }

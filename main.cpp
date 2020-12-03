@@ -14,7 +14,7 @@ int main() {
    myv.erase(it);
 
    for(it=myv.begin();it!=myv.end();++it){
-       printf("%d ",*it);
+       printf("%d ++",*it);
        printf("\n");
    }
 }
